@@ -13,7 +13,7 @@ while True:
         print('Enter element to push into stack:')
         x=input()
         stack.append(x)
-        print(x,'is pushed into stack')
+        print('element',x,'is pushed into stack')
     elif n==2:
         if len(stack)<=0:
             print('No elements in stack')
