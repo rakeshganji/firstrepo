@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jul 22 13:45:18 2021
-
 @author: RAKESH
 """
 
@@ -13,12 +12,12 @@ while True:
         print('Enter element to push into stack:')
         x=input()
         stack.append(x)
-        print('element',x,'is pushed into stack')
+        print(x,'is pushed into stack.')
     elif n==2:
-        if len(stack)<=0:
-            print('No elements in stack')
+        if len(stack)>0:
+            print(stack.pop(),'is popped from stack')
         else:
-            print('Element popped from stack is:',stack.pop())            
+            print('No elements in the stack')
     elif n==3:
         print('Top element is:',stack[-1])
     elif n==4:
