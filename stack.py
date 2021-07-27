@@ -6,7 +6,7 @@ Created on Thu Jul 22 13:45:18 2021
 
 stack = []
 while True:
-    print('\n1.Push\n2.Pop\n3.Top element\n4.IsEmpty\n5.Display stack elements\n6.Exit')
+    print('\n1.Push into stack\n2.Pop from stack\n3.Fetch Top Element\n4.Check IsEmpty\n5.Display stack elements\n6.Exit')
     n=int(input())
     if n==1:
         print('Enter element to push into stack:')
