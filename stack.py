@@ -3,7 +3,7 @@
 Created on Thu Jul 22 13:45:18 2021
 @author: RAKESH
 """
-
+#Basic satck program using list
 stack = []
 while True:
     print('\n1.Push into stack\n2.Pop from stack\n3.Fetch Top Element\n4.Check IsEmpty\n5.Display stack elements\n6.Exit')
