@@ -15,7 +15,10 @@ while True:
         stack.append(x)
         print(x,'is pushed into stack.')
     elif n==2:
-        print('Element popped from stack is:',stack.pop())
+        if len(stack)>0:
+            print('Element popped from stack is:',stack.pop())
+        else:
+            print('No elements in stack')
     elif n==3:
         print('Top element is:',stack[-1])
     elif n==4:
